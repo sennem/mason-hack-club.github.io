@@ -7,8 +7,8 @@ title: Blog
 <section id="one">
   <div class="container">
     <header class="major">
-      <h2>blog</h2>
-      <p>our thoughts.</p>
+      <h2>news</h2>
+      <p>important announcements.</p>
     </header>
     <!-- <p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p> -->
   </div>
@@ -16,7 +16,7 @@ title: Blog
 
 <section id="two" >
   <div class="container">
-    {% for post in site.categories.blog limit:1 %}
+    {% for post in site.categories.news limit:1 %}
     <article>
       <header>
         <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -37,7 +37,7 @@ title: Blog
 <section>
   <div class="container">
     <div class="features">
-      {% for post in site.categories.blog offset:1 %}
+      {% for post in site.categories.news offset:1 %}
       <article>
         <section class="excerpt">
           <header>

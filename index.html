@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Mason Hack Club Blog
-name: Mason Hack Club Blog
+title: Home
 ---
 
 
@@ -10,7 +9,7 @@ name: Mason Hack Club Blog
 <section id="one">
   <div class="container">
     <header class="major">
-      <h2>Mason Hack Club</h2>
+      <h2>mason hack club</h2>
       <p>learn. code. connect.</p>
     </header>
     <!-- <p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p> -->
@@ -20,10 +19,10 @@ name: Mason Hack Club Blog
 <!-- Two -->
 <section id="two">
   <div class="container">
-    <h3>About Us</h3>
-    <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
+    <h3>about us</h3>
+    <p>Mason Hack Club is a computer programming club at William Mason High School in Mason, Ohio, and is a chapter of the international <a href="https://hackclub.com" target="_blank">Hack Club organization</a>.</p>
     <ul class="feature-icons">
-      <li class="fa-code">Write all the code</li>
+      <li class="fa-globe">Write all the code</li>
       <li class="fa-cubes">Stack small boxes</li>
       <li class="fa-book">Read books and stuff</li>
       <li class="fa-coffee">Drink much coffee</li>
@@ -36,30 +35,26 @@ name: Mason Hack Club Blog
 <!-- Three -->
 <section id="three">
   <div class="container">
-    <h3>A Few Accomplishments</h3>
-    <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+    <h3>Recent Posts</h3>
+    <p>For a full list of posts, check out our <a href="{{ site.baseurl }}/blog">blog</a> or <a href="{{ site.baseurl }}/news">news</a> sections.</p>
     <div class="features">
+      {% for post in site.posts offset: 0 limit: 3 %}
       <article>
-        <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+        <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+        <a href="{{ site.url }}/{{ post.categories }}"><h5>{{ post.categories }}</h5>
+
+        </a>
+        {% if post.image %}
+        <a href="{{ post.url }}" class="image"><img src="{{ post.image }}" alt="{{ post.title }}" /></a>
         <div class="inner">
-          <h4>Possibly broke spacetime</h4>
-          <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+          <p>{{ post.excerpt }}</p>
+          <!-- <p>{{ post.excerpt }}</p> -->
         </div>
+        {% else %}
+        <p>{{ post.excerpt }}</p>
+        {% endif %}
       </article>
-      <article>
-        <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-        <div class="inner">
-          <h4>Terraformed a small moon</h4>
-          <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-        </div>
-      </article>
-      <article>
-        <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-        <div class="inner">
-          <h4>Snapped dark matter in the wild</h4>
-          <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-        </div>
-      </article>
+      {% endfor %}
     </div>
   </div>
 </section>
