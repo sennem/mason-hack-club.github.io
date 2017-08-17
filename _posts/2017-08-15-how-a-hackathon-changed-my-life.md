@@ -3,7 +3,7 @@ layout: post
 title:  "How a Hackathon Changed My Life"
 date:   2017-08-15
 categories: blog
-author: Megan Cui
+author: megan
 ---
 My beginning to code was strange, to say the least.
 

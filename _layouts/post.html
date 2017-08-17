@@ -1,17 +1,20 @@
 ---
 layout: default
 ---
+{% assign author = site.authors[page.author] %}
 <section>
   <div class="container">
     <header class="major">
       <h2>{{ page.title }}</h2>
-      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      <p class="post-meta">
+        {{ page.date | date: "%b %-d, %Y" }} •
+        <a href="{{ site.url }}/staff/{{ author.display }}">{{ author.name }}</a> •
+        <a href="{{ site.url }}/{{ post.categories }}">{{ page.categories }}</a>
+      </p>
     </header>
 
     <section class="post-content">
-
-      <img src="{{ post.image }}" alt="">
-
+      {% if page.image %}<img src="{{ page.image }}" alt="">{% endif %}
       {{ content }}
     </section>
 

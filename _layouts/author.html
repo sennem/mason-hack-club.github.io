@@ -1,23 +1,40 @@
 ---
 layout: default
-title: Blog
 ---
 
 <!-- One -->
+{% assign author = site.data.authors[page.author] %}
+{% assign posts_author = site.posts | where:"author", author.display %}
 <section id="one">
   <div class="container">
     <header class="major">
-      <h2>blog</h2>
-      <p>our thoughts.</p>
+      <h2>{{ author.name }}</h2>
+      <h4>{{ author.title }}</h4>
+      <p>{{ author.bio }}</p>
+      <ul class="icons">
+        {% if author.email %}
+        <li><a href="mailto:{{ author.email }}" class="icon fa-envelope"><span class="label">Email</span></a></li>
+        {% endif %}
+        {% if author.web %}
+        <li><a href="{{ author.web }}" class="icon fa-link" target="_blank"><span class="label">Website</span></a></li>
+        {% endif %}
+        {% if author.twitter %}
+        <li><a href="https://twitter.com/{{ author.twitter }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+        {% endif %}
+        {% if author.github %}
+        <li><a href="https://github.com/{{ author.github }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+        {% endif %}
+        {% if author.linkedin %}
+        <li><a href="https://linkedin.com/in/{{ author.linkedin }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+        {% endif %}
+      </ul>
     </header>
-    <!-- <p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p> -->
   </div>
 </section>
 
-<section id="two" >
+<section id="two">
   <div class="container">
-    {% for post in site.categories.blog limit:1 %}
-    {% assign author = site.data.authors[post.author] %}
+    {% for post in posts_author limit:1 %}
     <article>
       <header>
         <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -42,11 +59,12 @@ title: Blog
     {% endfor %}
   </div>
 </section>
+
+
 <section>
   <div class="container">
     <div class="features">
-      {% for post in site.categories.blog offset:1 %}
-      {% assign author = site.data.authors[post.author] %}
+      {% for post in posts_author offset:1 %}
       <article>
         <section class="excerpt">
           <header>
@@ -59,10 +77,8 @@ title: Blog
           </header>
           {% if post.image %}
           <a href="{{ post.url }}" class="image"><img src="{{ post.image }}" alt="{{ post.title }}" /></a>
-            <p>{{ post.content | truncatewords: 30 }}</p>
-          {% else %}
-          <p>{{ post.content | truncatewords: 30 }}</p>
           {% endif %}
+          <p>{{ post.content | truncatewords: 30 }}</p>
 
         </section>
         <footer>
