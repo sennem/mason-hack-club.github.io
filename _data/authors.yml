@@ -13,8 +13,8 @@ megan:
   name:      Megan Cui
   display:   megan
   class:     director
-  title:     executive director
-  bio:       megan is one of the founding members of mason hack club.
+  title:     Executive Director
+  bio:       Megan Cui is a co-founder and the executive director of Mason Hack Club. She placed third at the RevolutionUC hackathon in 2017 and won "Best High School Hack" the year before. When she isn't coding or participating in outreach programs, she does many other activities like public forum debate, flute, and rec volleyball.
   email:     megan.cui.mc@gmail.com
   twitter:   megscui
   github:    megancui
@@ -24,7 +24,7 @@ annie:
   name:      Annie Wang
   display:   annie
   class:     director
-  title:     outreach director
+  title:     Outreach Director
   bio:       outreach director
   email:     anniedwang02@gmail.com
   # twitter: megscui
@@ -35,7 +35,7 @@ mark:
   name:      Mark Senne
   display:   mark
   class:     director
-  title:     operations director
+  title:     Operations Director
   bio:       operations director
   email:     marksenne000@gmail.com
   # twitter: megscui
@@ -46,7 +46,7 @@ avi:
   name:      Avi Parshionikar
   display:   avi
   class:     officer
-  title:     communications officer
+  title:     Communications Officer
   bio:       communications officer
   email:     parshionikara@masonohioschools.com
   # twitter: megscui
@@ -57,7 +57,7 @@ will:
   name:      Will Mechler
   display:   will
   class:     officer
-  title:     logistics officer
+  title:     Logistics Officer
   bio:       logistics officer
   email:     mechlerw@masonohioschools.com
   # twitter: megscui
