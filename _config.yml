@@ -1,14 +1,15 @@
 # Site settings
 title: "Mason Hack Club"
-email: 20dalton00@gmail.com
 description: >
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-# baseurl: "/Read-Only-Jekyll-Theme" # the subpath of your site, e.g. /blog/
-url: "LOCALHOST" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "https://blog.masonhackclub.tech" # the base hostname & protocol for your site
 # url: "https://masonhackclub.tech" # the base hostname & protocol for your site
-twitter_username: masonhackclub
-github_username:  mason-hack-club
+twitter: masonhackclub
+github:  mason-hack-club
+email: masonhackclub@gmail.com
+linkedin: "11236662"
 markdown: kramdown
 permalink: /:categories/:title/
