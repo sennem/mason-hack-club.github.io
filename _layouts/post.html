@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign author = site.authors[page.author] %}
+{% assign author = site.data.authors[page.author] %}
 <section>
   <div class="container">
     <header class="major">
@@ -9,20 +9,24 @@ layout: default
       <p class="post-meta">
         {{ page.date | date: "%b %-d, %Y" }} •
         <a href="{{ site.url }}/staff/{{ author.display }}">{{ author.name }}</a> •
-        <a href="{{ site.url }}/{{ post.categories }}">{{ page.categories }}</a>
+        <a href="{{ site.url }}/{{ page.categories }}">{{ page.categories }}</a>
       </p>
     </header>
 
     <section class="post-content">
-      {% if page.image %}<img src="{{ page.image }}" alt="">{% endif %}
+      {% if page.image %}
+      <div class="image fit">
+        <img src="/images/posts/{{ page.image }}" alt="">
+      </div>
+      {% endif %}
       {{ content }}
     </section>
 
     <footer>
-      {% if page.previous %}
-      <a href="{{ page.previous.url }}" class="float-left">&larr; Previous post</a> {% endif %}
-      {% if page.next %}
-      <a href="{{ page.next.url }}" class="float-right">Next post &rarr;</a> {% endif %}
+      {% if page.categories.previous %}
+      <a href="{{ page.categories.previous.url }}" class="float-left">&larr; Previous post</a> {% endif %}
+      {% if page.categories.next %}
+      <a href="{{ page.categories.next.url }}" class="float-right">Next post &rarr;</a> {% endif %}
     </footer>
 
   </div>

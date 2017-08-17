@@ -42,7 +42,7 @@ title: Home
           <a href="{{ site.url }}/{{ post.categories }}">{{ post.categories }}</a>
         </p>
         {% if post.image %}
-        <a href="{{ post.url }}" class="image"><img src="{{ post.image }}" alt="{{ post.title }}" /></a>
+        <a href="{{ post.url }}" class="image"><img src="/images/posts/{{ post.image }}" alt="{{ post.title }}" /></a>
         <div class="inner">
           <p>{{ post.excerpt }}</p>
         </div>
