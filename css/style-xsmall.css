@@ -33,6 +33,9 @@ ul.feature-icons li {
   display: block;
   width: 100%; }
 
+.authors {
+  width: 65%; }
+
 /* Button */
 input[type="submit"],
 input[type="reset"],

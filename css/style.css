@@ -400,6 +400,8 @@ input[type="radio"] + label:before {
     .image.fit img {
       display: block;
       width: 100%; }
+    .image.fit.nav {
+      margin: 0; }
   .image.avatar {
     border-radius: 100%;
     overflow: hidden; }

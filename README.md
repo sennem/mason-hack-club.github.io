@@ -8,17 +8,17 @@ This website was coded with love by [Dalton Craven](https://daltoncraven.tech). 
 
 ### Design
 
-[HTML5 Up](html5up.net)
+[HTML5 Up](https://html5up.net)
 
 ### Icons
-[Font Awesome](fontawesome.io)
+[Font Awesome](https://fontawesome.io)
 
 ### Other
 
-[jQuery](jquery.com)
+[jQuery](https://jquery.com/)
 
 [html5shiv.js](https://github.com/aFarkas/html5shiv/)
 
-[CSS3 Pie](css3pie.com)
+[CSS3 Pie](http://css3pie.com)
 
-[skel](getskel.com)
+[skel](http://getskel.com)

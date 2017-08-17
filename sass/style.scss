@@ -479,6 +479,10 @@ $size-header: 23em;
 				display: block;
 				width: 100%;
 			}
+
+			&.nav {
+				margin: 0;
+			}
 		}
 
 		&.avatar {
