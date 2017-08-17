@@ -1,0 +1,35 @@
+---
+layout: default
+title: Staff
+---
+<section id="one">
+  <div class="container">
+    <header class="major">
+      <h2>staff</h2>
+      <p>about us.</p>
+    </header>
+    <!-- <p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p> -->
+  </div>
+</section>
+<section id="two">
+  <div class="container">
+    <div class="features staff">
+      {% for author in site.data.authors %}
+      <!-- {% assign author = site.authors[post.author] %} -->
+      <!-- <article> -->
+      <!-- <section class="author"> -->
+      <div class="authors">
+        <a class="image" href="{{ site.baseurl }}{{ author[1].display }}">
+          <img src="/images/staff/{{ author[1].display }}.jpg" alt="{{ author[1].name }}'s image">
+            <!-- <img src="/images/staff/{{ author[1].display }}.jpg" alt="{{ author[1].name }} image"> -->
+          <h3>{{ author[1].name }}</h3>
+          <p>{{ author[1].title }}</p>
+        </a>
+      </div>
+      <!-- </section> -->
+      <!-- <div class="clear"></div> -->
+      <!-- </article> -->
+      {% endfor %}
+    </div>
+  </div>
+</section>
