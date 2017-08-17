@@ -1,11 +1,12 @@
 ---
-layout: post
-title:  "How a Hackathon Changed My Life"
-date:   2017-08-15
-categories: blog
-author: megan
+layout:      post
+title:       how a hackathon changed my life
+date:        2017-08-15
+categories:  blog
+author:      megan
 ---
-My beginning to code was strange, to say the least.
+
+My beginning to coding was strange, to say the least.
 
 I dove into my first programming project with absolutely no knowledge or understanding of anything programming-related, although I knew that it was seemingly _“more for boys”_, _“only for geniuses”_, and _“all math-based”_, pushing me to avoid pursuing it until mid-eighth grade when my dad came back from a conference raving about a new way of handling productivity  from Wharton professor Dr. Katherine Milkman called “temptation bundling”. It was essentially takomg one unproductive item (watching Netflix) and combining it with something you hate doing that’s necessary (going to the gym) to create more incentive for you to do necessary things (you can only watch Netflix while you’re at the gym). At the same time, I became obsessed with YouTube, spending nearly five hours each day surfing through an endless stream of colorful videos, but I knew it was a major problem with my productivity. As my dad showed me Dr. Milkman’s keynote speech about temptation bundling, an idea popped into my head: _What if I could solve my productivity problem? What if every time I went to YouTube, a Quizlet deck of chemistry terms popped up, forcing me to read some important vocab words before being unproductive?_
 

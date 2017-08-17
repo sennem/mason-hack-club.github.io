@@ -1,65 +1,65 @@
 dalton:
-  name: dalton craven
-  display: dalton
-  class: director
-  title: finance director & webmaster
-  bio: pretty cool.
-  email: 20dalton00@gmail.com
-  web: https://daltoncraven.tech
-  github: cravend
-  linkedin: dalton-craven
+  name:      Dalton Craven
+  display:   dalton
+  class:     director
+  title:     finance director & webmaster
+  bio:       pretty cool.
+  email:     20dalton00@gmail.com
+  web:       https://daltoncraven.tech
+  github:    cravend
+  linkedin:  dalton-craven
 
 megan:
-  name: megan cui
-  display: megan
-  class: director
-  title: executive director
-  bio: megan is one of the founding members of mason hack club.
-  email: megan.cui.mc@gmail.com
-  twitter: megscui
-  github: megancui
-  linkedin: megancui
+  name:      Megan Cui
+  display:   megan
+  class:     director
+  title:     executive director
+  bio:       megan is one of the founding members of mason hack club.
+  email:     megan.cui.mc@gmail.com
+  twitter:   megscui
+  github:    megancui
+  linkedin:  megancui
 
 annie:
-  name: annie wang
-  display: annie
-  class: director
-  title: outreach director
-  bio: outreach director
-  email: anniedwang02@gmail.com
+  name:      Annie Wang
+  display:   annie
+  class:     director
+  title:     outreach director
+  bio:       outreach director
+  email:     anniedwang02@gmail.com
   # twitter: megscui
-  github: wangannie
-  linkedin: annie-w-2800a5137
+  github:    wangannie
+  linkedin:  annie-w-2800a5137
 
 mark:
-  name: mark senne
-  display: mark
-  class: director
-  title: operations director
-  bio: operations director
-  email: marksenne000@gmail.com
+  name:      Mark Senne
+  display:   mark
+  class:     director
+  title:     operations director
+  bio:       operations director
+  email:     marksenne000@gmail.com
   # twitter: megscui
-  # github: megancui
-  linkedin: mark-senne-b45807138
+  # github:  megancui
+  linkedin:  mark-senne-b45807138
 
 avi:
-  name: avi parshionikar
-  display: avi
-  class: officer
-  title: communications officer
-  bio: communications officer
-  email: parshionikara@masonohioschools.com
+  name:      Avi Parshionikar
+  display:   avi
+  class:     officer
+  title:     communications officer
+  bio:       communications officer
+  email:     parshionikara@masonohioschools.com
   # twitter: megscui
-  github: aviparsh
+  github:    aviparsh
   # linkedin: megancui
 
 will:
-  name: will mechler
-  display: will
-  class: officer
-  title: logistics officer
-  bio: logistics officer
-  email: mechlerw@masonohioschools.com
+  name:      Will Mechler
+  display:   will
+  class:     officer
+  title:     logistics officer
+  bio:       logistics officer
+  email:     mechlerw@masonohioschools.com
   # twitter: megscui
-  github: willmec
-  linkedin: william-m-aa84bb146
+  github:    willmec
+  linkedin:  william-m-aa84bb146
