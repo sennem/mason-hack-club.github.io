@@ -1,7 +1,7 @@
 @import 'vars';
 @import 'mixins';
 @import 'font-awesome.min.css';
-@import url('http://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i|Source+Code+Pro:400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,600i|Source+Code+Pro:400');
 
 /*
 	Read Only by HTML5 UP
@@ -151,6 +151,18 @@ $size-header: 23em;
 
 	.align-right {
 		text-align: right;
+	}
+
+	.post-meta a {
+		@include vendor-property('transition', 'color #{$duration-transition} ease-in-out, border-color #{$duration-transition} ease-in-out');
+		border-bottom: solid 1px $color-border2;
+		color: inherit;
+		text-decoration: none;
+
+		&:hover {
+			border-bottom-color: transparent;
+			color: $color-accent-bg !important;
+		}
 	}
 
 /* Section/Article */
@@ -418,6 +430,22 @@ $size-header: 23em;
 	}
 
 /* Image */
+	.staff {
+		text-align: center;
+	}
+
+	.authors {
+		width: 44%;
+		padding: 0 3%;
+		overflow: hidden;
+		text-align: left;
+		display: inline-block !important;
+
+		img {
+			width: 100%;
+		}
+	}
+
 
 	.image {
 		border-radius: $size-border-radius;
@@ -939,6 +967,11 @@ $size-header: 23em;
 						&.active {
 							background: $color-bg;
 							color: $color-header-bg !important;
+						}
+
+						&.featured {
+							color: $color-accent-fg-bold !important;
+							background-color: $color-accent2-bg !important;
 						}
 					}
 
