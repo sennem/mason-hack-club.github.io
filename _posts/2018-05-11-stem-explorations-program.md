@@ -1,6 +1,6 @@
 ---
 layout:      post
-title:       stem explorations program successful at western row
+title:       Stem Explorations Program Successful at Western Row
 image:       stem-explorations-program.jpg
 date:        2017-05-11
 categories:  news

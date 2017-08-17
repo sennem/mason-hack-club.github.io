@@ -1,6 +1,6 @@
 ---
 layout:      post
-title:       how a hackathon changed my life
+title:       How a Hackathon Changed my Life
 date:        2017-08-15
 categories:  blog
 author:      megan
