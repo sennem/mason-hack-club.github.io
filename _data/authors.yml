@@ -2,8 +2,8 @@ dalton:
   name:      Dalton Craven
   display:   dalton
   class:     director
-  title:     Finance director & Webmaster
-  bio:       Dalton is the webmaster for Mason Hack Club & Mason ACM and the finance director for Mason Hack Club. He's been programming for two years now and has done an internship with the City of Mason's IT Department. Outside of school he likes reading and working on his car, a 1963 Mercury Comet.
+  title:     Finance Director & Webmaster
+  bio:       Dalton is the Finance Director &amp; Webmaster for Mason Hack Club and the Webmater for <a href="http://masonacm.org" target="_blank">Mason ACM</a>. He's been programming for two years now and has done two internships, one with the City of Mason's IT Department and one with <a href="http://variousviews.com" target="_blank">Various Views</a>. Outside of school he likes reading and working on his car, a 1963 Mercury Comet.
   email:     20dalton00@gmail.com
   web:       https://daltoncraven.tech
   github:    cravend
@@ -14,7 +14,7 @@ megan:
   display:   megan
   class:     director
   title:     Executive Director
-  bio:       Megan Cui is a co-founder and the executive director of Mason Hack Club. She placed third at the RevolutionUC hackathon in 2017 and won "Best High School Hack" the year before. When she isn't coding or participating in outreach programs, she does many other activities like public forum debate, flute, and rec volleyball.
+  bio:       Megan Cui is a co-founder and the Executive Director of Mason Hack Club. She placed third at the RevolutionUC hackathon in 2017 and won "Best High School Hack" the year before. When she isn't coding or participating in outreach programs, she does many other activities like public forum debate, flute, and rec volleyball.
   email:     megan.cui.mc@gmail.com
   twitter:   megscui
   github:    megancui
@@ -25,9 +25,8 @@ annie:
   display:   annie
   class:     director
   title:     Outreach Director
-  bio:       Annie is the co-founder and outreach director of Mason Hack Club. She’s passionate about spreading interest in STEM in the community, and is excited to teach kids how to code. She’s experimented with many different programming languages (including Java, Swift, and HTML), and she’s always ready to learn more. When she’s not coding, you can find Annie napping, building robots, or dining at Ikea.
+  bio:       Annie is a co-founder and outreach director of Mason Hack Club. She’s passionate about spreading interest in STEM in the community, and is excited to teach kids how to code. She’s experimented with many different programming languages (including Java, Swift, and HTML), and she’s always ready to learn more. When she’s not coding, you can find Annie napping, building robots, or dining at Ikea.
   email:     anniedwang02@gmail.com
-  # twitter: megscui
   github:    wangannie
   linkedin:  annie-w-2800a5137
 
@@ -36,10 +35,8 @@ mark:
   display:   mark
   class:     director
   title:     Operations Director
-  bio:       operations director
+  bio:       A young programmer passionate about technology, Mark is always looking for opportunities and various ways to grow.
   email:     marksenne000@gmail.com
-  # twitter: megscui
-  # github:  megancui
   linkedin:  mark-senne-b45807138
 
 avi:
@@ -49,9 +46,7 @@ avi:
   title:     Communications Officer
   bio:       communications officer
   email:     parshionikara@masonohioschools.com
-  # twitter: megscui
   github:    aviparsh
-  # linkedin: megancui
 
 will:
   name:      Will Mechler
@@ -60,6 +55,5 @@ will:
   title:     Logistics Officer
   bio:       logistics officer
   email:     mechlerw@masonohioschools.com
-  # twitter: megscui
   github:    willmec
   linkedin:  william-m-aa84bb146
