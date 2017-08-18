@@ -13,3 +13,5 @@ email: masonhackclub@gmail.com
 linkedin: "11236662"
 markdown: kramdown
 permalink: /:categories/:title/
+plugins:
+  - jekyll-sitemap
