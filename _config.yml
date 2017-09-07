@@ -1,5 +1,6 @@
 # Site settings
 title: "Mason Hack Club"
+currentyear: 2018
 description: >
   Mason Hack Club is a computer programming club at William Mason High School
   in Mason, Ohio, and is a chapter of the international Hack Club organization.
@@ -13,4 +14,8 @@ linkedin: "11236662"
 markdown: kramdown
 permalink: /:categories/:title/
 plugins:
-  - jekyll-sitemap
+  - "jekyll-sitemap"
+  - "jekyll-feed"
+  - "jekyll-seo-tag"
+  - "jekyll-archives"
+  - "jekyll-paginate"
