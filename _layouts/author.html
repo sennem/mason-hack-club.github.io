@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- One -->
-{% assign author = site.data.authors[page.author] %}
+{% assign author = site.data.authors | where: "display", page.display | first %}
 {% assign posts_author = site.posts | where:"author", author.display %}
 <section id="one">
   <div class="container">
@@ -32,6 +32,7 @@ layout: default
   </div>
 </section>
 
+{% if posts_author[0] %}
 <section id="two">
   <div class="container">
     {% for post in posts_author limit:1 %}
@@ -92,3 +93,4 @@ layout: default
     </div>
   </div>
 </section>
+{% endif %}

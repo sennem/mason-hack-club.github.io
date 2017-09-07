@@ -1,59 +1,54 @@
-dalton:
+- display:   dalton
   name:      Dalton Craven
-  display:   dalton
   class:     director
+  year:      2018
   title:     Finance Director & Webmaster
   bio:       Dalton is the Finance Director &amp; Webmaster for Mason Hack Club and the Webmaster for <a href="http://masonacm.org" target="_blank">Mason ACM</a>. He's been programming for two years now and has done two internships, one with the City of Mason's IT Department and one with <a href="http://variousviews.com" target="_blank">Various Views</a>. Outside of school he likes reading and working on his car, a 1963 Mercury Comet.
   email:     20dalton00@gmail.com
   web:       https://daltoncraven.tech
   github:    cravend
   linkedin:  dalton-craven
-
-megan:
+- display:   megan
   name:      Megan Cui
-  display:   megan
   class:     director
+  year:      2018
   title:     Executive Director
   bio:       Megan Cui is a co-founder and the Executive Director of Mason Hack Club. She placed third at the RevolutionUC hackathon in 2017 and won "Best High School Hack" the year before. When she isn't coding or participating in outreach programs, she does many other activities like public forum debate, flute, and rec volleyball.
   email:     megan.cui.mc@gmail.com
   twitter:   megscui
   github:    megancui
   linkedin:  megancui
-
-annie:
+- display:   annie
   name:      Annie Wang
-  display:   annie
   class:     director
+  year:      2018
   title:     Outreach Director
   bio:       Annie is a co-founder and outreach director of Mason Hack Club. She’s passionate about spreading interest in STEM in the community, and is excited to teach kids how to code. She’s experimented with many different programming languages (including Java, Swift, and HTML), and she’s always ready to learn more. When she’s not coding, you can find Annie napping, building robots, or dining at Ikea.
   email:     anniedwang02@gmail.com
   github:    wangannie
   linkedin:  annie-w-2800a5137
-
-mark:
+- display:   mark
   name:      Mark Senne
-  display:   mark
   class:     director
+  year:      2018
   title:     Operations Director
   bio:       A young programmer passionate about technology, Mark is always looking for opportunities and various ways to grow.
   email:     marksenne000@gmail.com
   linkedin:  mark-senne-b45807138
-
-avi:
+- display:   avi
   name:      Avi Parshionikar
-  display:   avi
   class:     officer
+  year:      2018
   title:     Communications Officer
   bio:       communications officer
   email:     parshionikara@masonohioschools.com
   github:    aviparsh
-
-will:
+- display:   will
   name:      Will Mechler
-  display:   will
   class:     officer
+  year:      2018
   title:     Logistics Officer
-  bio:       logistics officer
+  bio:       I love Hack Club. I would like to help expand Hack Club and to help get more people into Hack Club.
   email:     mechlerw@masonohioschools.com
   github:    willmec
   linkedin:  william-m-aa84bb146

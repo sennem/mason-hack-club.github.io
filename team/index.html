@@ -15,10 +15,10 @@ title: Staff
     <div class="staff">
       {% for author in site.data.authors %}
       <div class="authors">
-        <a class="image" href="{{ site.baseurl }}{{ author[1].display }}">
-          <img src="/images/staff/{{ author[1].display }}.jpg" alt="{{ author[1].name }}'s image">
-          <h3>{{ author[1].name }}</h3>
-          <p>{{ author[1].title }}</p>
+        <a class="image" href="{{ site.baseurl }}{{ author.display }}">
+          <img src="/images/staff/{{ author.display }}.jpg" alt="{{ author.name }}'s image">
+          <h3>{{ author.name }}</h3>
+          <p>{{ author.title }}</p>
         </a>
       </div>
       {% endfor %}
