@@ -1,0 +1,36 @@
+---
+layout: default
+title: Resources
+---
+<!-- One -->
+<section id="one">
+  <div class="container">
+    <header class="major">
+      <h2>Resources</h2>
+      <p>learning and growing.</p>
+    </header>
+  </div>
+</section>
+
+<section id="two" >
+  <div class="container">
+    {% for resource in site.data.resources reversed %}
+    <h2>{{ resource.title }}</h2>
+    {% if resource.date %}
+    <h4 class="post-meta">{{ resource.date | date: "%b %-d, %Y" }}</h4>
+    {% endif %}
+    <section class="post-content">
+      <p>{{ resource.details }}</p>
+    </section>
+    {% if resource.urls[0] %}
+    <section class="special">
+      <ul class="actions">
+        {% for url in resource.urls %}
+        <li><a href="{{ site.baseurl }}{{ url.link }}" target="_blank" class="button special">{{ url.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>

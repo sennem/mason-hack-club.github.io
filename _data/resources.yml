@@ -1,0 +1,17 @@
+- title: Hack Club Workshops
+  date: 2017-09-18
+  details: "Hack Club has provided several workshops to complete that teach you the basics in web design."
+  urls:
+    - name: Workshops List
+      link: https://workshops.hackclub.com/
+    - name: Personal Website
+      link: https://hackclub.com/workshops/
+# - name: test2
+#   title: Testing resource2
+#   date: 2017-09-18
+#   details: "This is information abotu this testing2 resource"
+#   urls:
+#     - name: Codecademy
+#       link: https://codecademy.com
+#     - name: Google
+#       link: https://google.com
