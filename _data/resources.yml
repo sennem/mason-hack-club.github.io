@@ -6,12 +6,15 @@
       link: https://workshops.hackclub.com/
     - name: Personal Website
       link: https://workshops.hackclub.com/personal_website/
-# - name: test2
-#   title: Testing resource2
-#   date: 2017-09-18
-#   details: "This is information abotu this testing2 resource"
-#   urls:
-#     - name: Codecademy
-#       link: https://codecademy.com
-#     - name: Google
-#       link: https://google.com
+    - name: That was Easy
+      link: https://workshops.hackclub.com/that_was_easy/
+- title: Club Information Collection
+  date: 2017-09-18
+  details: "Feel free to submit your projects--we want to see what you've made!"
+  urls:
+    - name: GitHub Username Submission
+      link: https://docs.google.com/forms/d/e/1FAIpQLSeV4M6ffKI52c6OiAeon-zbLfj7ESkdweQ-whOha06L4xBR1g/viewform?usp=sf_link
+    - name: Personal Website Submission
+      link: https://docs.google.com/forms/d/e/1FAIpQLScX3Sf-tc6dxdUzsREyh8uqFcpO7RHSvApb_704mkJYLgneIQ/viewform?usp=sf_link
+    - name: Hack Club Shipit
+      link: https://shipit.hackclub.com/
