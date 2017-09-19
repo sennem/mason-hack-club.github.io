@@ -16,7 +16,7 @@ title: News
 <section id="two" >
   <div class="container">
     {% for post in site.categories.news limit:1 %}
-    {% assign author = site.data.authors[post.author] %}
+    {% assign author = site.data.authors | where: "display", post.author | first %}
     <article>
       <header>
         <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -45,7 +45,7 @@ title: News
   <div class="container">
     <div class="features">
       {% for post in site.categories.news offset:1 %}
-      {% assign author = site.data.authors[post.author] %}
+      {% assign author = site.data.authors | where: "display", post.author | first %}
       <article>
         <section class="excerpt">
           <header>
