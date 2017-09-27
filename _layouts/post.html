@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-{% assign author = site.data.authors | where: "display", post.author | first %}
+{% assign author = site.data.authors | where: "display", page.author | first %}
 <section>
   <div class="container">
     <header class="major">
       <h2>{{ page.title }}</h2>
       <p class="post-meta">
         {{ page.date | date: "%b %-d, %Y" }} •
-        <a href="{{ site.url }}/staff/{{ author.display }}">{{ author.name }}</a> •
-        <a href="{{ site.url }}/{{ page.categories }}">{{ page.categories }}</a>
+        <a href="{{ site.url }}/team/{{ author.display }}">{{ author.name }}</a> •
+        <a href="{{ site.url }}/{{ post.categories }}">{{ page.categories }}</a>
       </p>
     </header>
 
