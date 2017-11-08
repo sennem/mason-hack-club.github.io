@@ -153,6 +153,24 @@ $size-header: 23em;
 		text-align: right;
 	}
 
+	.split {
+		float: left;
+		&:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+		}
+	}
+	.split-left {
+	width: 50%;
+	}
+	.split-right {
+	width: 50%;
+	}
+	.right-alt {
+	width: 50%;
+	}
+
 	.post-meta a {
 		@include vendor-property('transition', 'color #{$duration-transition} ease-in-out, border-color #{$duration-transition} ease-in-out');
 		border-bottom: solid 1px $color-border2;

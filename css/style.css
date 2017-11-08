@@ -121,6 +121,22 @@ pre {
 .align-right {
   text-align: right; }
 
+.split {
+  float: left; }
+  .split:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.split-left {
+  width: 50%; }
+
+.split-right {
+  width: 50%; }
+
+.right-alt {
+  width: 50%; }
+
 .post-meta a {
   -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;

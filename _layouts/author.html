@@ -5,30 +5,37 @@ layout: default
 <!-- One -->
 {% assign author = site.data.authors | where: "display", page.display | first %}
 {% assign posts_author = site.posts | where:"author", author.display %}
-<section id="one">
+<section id="one" style="overflow: hidden; padding-bottom: 50px;">
   <div class="container">
-    <header class="major">
-      <h2>{{ author.name }}</h2>
-      <h4>{{ author.title }}</h4>
-      <p>{{ author.bio }}</p>
-      <ul class="icons">
-        {% if author.email %}
-        <li><a href="mailto:{{ author.email }}" class="icon fa-envelope"><span class="label">Email</span></a></li>
-        {% endif %}
-        {% if author.web %}
-        <li><a href="{{ author.web }}" class="icon fa-link" target="_blank"><span class="label">Website</span></a></li>
-        {% endif %}
-        {% if author.twitter %}
-        <li><a href="https://twitter.com/{{ author.twitter }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-        {% endif %}
-        {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-        {% endif %}
-        {% if author.linkedin %}
-        <li><a href="https://linkedin.com/in/{{ author.linkedin }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-        {% endif %}
-      </ul>
-    </header>
+    <div class="split split-left">
+      <img class="image" style="max-width: 90%;" src="/images/staff/{{ author.display }}.jpg" alt="{{ author.name }}'s image">
+    </div>
+      <header class="major">
+      <div class="split split-right">
+        <h2>{{ author.name }}</h2>
+      </div>
+      <div class="split right-alt">
+        <h4>{{ author.title }}</h4>
+        <p>{{ author.bio }}</p>
+        <ul class="icons">
+          {% if author.email %}
+          <li><a href="mailto:{{ author.email }}" class="icon fa-envelope"><span class="label">Email</span></a></li>
+          {% endif %}
+          {% if author.web %}
+          <li><a href="{{ author.web }}" class="icon fa-link" target="_blank"><span class="label">Website</span></a></li>
+          {% endif %}
+          {% if author.twitter %}
+          <li><a href="https://twitter.com/{{ author.twitter }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+          {% endif %}
+          {% if author.github %}
+          <li><a href="https://github.com/{{ author.github }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+          {% endif %}
+          {% if author.linkedin %}
+          <li><a href="https://linkedin.com/in/{{ author.linkedin }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+          {% endif %}
+        </ul>
+      </div>
+      </header>
   </div>
 </section>
 

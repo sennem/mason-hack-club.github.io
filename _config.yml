@@ -5,7 +5,7 @@ description: >
   Mason Hack Club is a computer programming club at William Mason High School
   in Mason, Ohio, and is a chapter of the international Hack Club organization.
 #baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "https://masonhackclub.tech" # the base hostname & protocol for your site
+url: "https://masonhackclub.com" # the base hostname & protocol for your site
 # url: "https://masonhackclub.tech" # the base hostname & protocol for your site
 twitter: masonhackclub
 github:  mason-hack-club

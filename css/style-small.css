@@ -33,6 +33,9 @@ header.major h2 {
   header.major h2 + p {
     font-size: 1.5em; }
 
+.right-alt {
+  width: 100%; }
+
 /* Features */
 .features article .image {
   display: block;
