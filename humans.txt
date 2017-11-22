@@ -39,6 +39,45 @@
   Email: guoa [at] masonohioschools.com
   Class of: 2019
 
+/* 2016-2017 TEAM */
+  President: Megan Cui
+  Email: megan.cui.mc [at] gmail.com
+  Twitter: @megscui
+  LinkedIn: megancui
+  GitHub: megancui
+  Class of: 2019
+
+  Outreach Director: Annie Wang
+  Email: anniedwang02 [at] gmail.com
+  LinkedIn: annie-w-2800a5137
+  GitHub: wangannie
+  Class of: 2019
+
+  Finance Director, Webmaster: Dalton Craven
+  Email: 20dalton00 [at] gmail.com
+  LinkedIn: dalton-craven
+  GitHub: cravend
+  Class of: 2019
+
+  Communications Director: Mark Senne
+  Email: marksenne000 [at] gmail.com
+  LinkedIn: mark-senne-b45807138
+  Class of: 2019
+
+  Activities Director: Avi Parshionikar
+  Email: parshionikara [at] masonohioschools.com
+  LinkedIn: scott-shepherd-77140a151
+  Class of: 2019
+
+  Project Director: Scott Shepherd
+  Email: scottjshep [at] gmail.com
+  LinkedIn: scott-shepherd-77140a151
+  Class of: 2019
+
+  Project Director: Noah Heinen
+  Email: heinenn [at] masonohioschools.com
+  Class of: 2019
+
 /* ADVISORS */
   Name: Mike Heinen
   Years: 2016-present
