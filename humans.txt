@@ -83,10 +83,10 @@
   Years: 2016-present
 
   Name: Greg Kummer
-  Years: 2016-Present
+  Years: 2016-present
 
   Name: Greg Roach
-  Years: 2016-Present
+  Years: 2016-present
 
 /* SITE */
   Last update: 11/21/2017
