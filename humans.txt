@@ -1,0 +1,58 @@
+/* 2017-2018 TEAM */
+  Executive Director: Megan Cui
+  Email: megan.cui.mc [at] gmail.com
+  Twitter: @megscui
+  LinkedIn: megancui
+  GitHub: megancui
+  Class: Class of 2019
+
+  Outreach Director: Annie Wang
+  Email: anniedwang02 [at] gmail.com
+  LinkedIn: annie-w-2800a5137
+  GitHub: wangannie
+  Class: Class of 2019
+
+  Finance Director, Webmaster: Dalton Craven
+  Email: 20dalton00 [at] gmail.com
+  LinkedIn: dalton-craven
+  GitHub: cravend
+  Class: Class of 2019
+
+  Operations Director: Mark Senne
+  Email: megan.cui.mc [at] gmail.com
+  Twitter: @megscui
+  LinkedIn: megancui
+  GitHub: megancui
+  Class: Class of 2019
+
+  Communications Officer: Avi Parshionikar
+  Email: parshionikara [at] masonohioschools.com
+  GitHub: aviparsh
+  Class: Class of 2019
+
+  Logistics Officer: Will Mechler
+  Email: mechlerw [at] masonohioschools.com
+  LinkedIn: william-m-aa84bb146
+  GitHub: willmec
+  Class: Class of 2019
+
+  Analytics Officer: Alan Guo
+  Email: guoa [at] masonohioschools.com
+  Class: Class of 2019
+
+/* ADVISORS */
+  Name: Mike Heinen
+  Years: 2016-present
+
+  Name: Greg Kummer
+  Years: 2016-Present
+
+  Name: Greg Roach
+  Years: 2016-Present
+
+/* SITE */
+  Last update: 11/21/2017
+  Hosted by: GitHub (mason-hack-club/mason-hack-club.github.io)
+  Doctype: HTML5
+  Generator: Jekyll
+  IDE: Atom
