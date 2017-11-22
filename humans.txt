@@ -4,40 +4,40 @@
   Twitter: @megscui
   LinkedIn: megancui
   GitHub: megancui
-  Class: Class of 2019
+  Class of: 2019
 
   Outreach Director: Annie Wang
   Email: anniedwang02 [at] gmail.com
   LinkedIn: annie-w-2800a5137
   GitHub: wangannie
-  Class: Class of 2019
+  Class of: 2019
 
   Finance Director, Webmaster: Dalton Craven
   Email: 20dalton00 [at] gmail.com
   LinkedIn: dalton-craven
   GitHub: cravend
   Website: daltoncraven.tech
-  Class: Class of 2019
+  Class of: 2019
 
   Operations Director: Mark Senne
   Email: marksenne000 [at] gmail.com
   LinkedIn: mark-senne-b45807138
-  Class: Class of 2019
+  Class of: 2019
 
   Communications Officer: Avi Parshionikar
   Email: parshionikara [at] masonohioschools.com
   GitHub: aviparsh
-  Class: Class of 2019
+  Class of: 2019
 
   Logistics Officer: Will Mechler
   Email: mechlerw [at] masonohioschools.com
   LinkedIn: william-m-aa84bb146
   GitHub: willmec
-  Class: Class of 2019
+  Class of: 2019
 
   Analytics Officer: Alan Guo
   Email: guoa [at] masonohioschools.com
-  Class: Class of 2019
+  Class of: 2019
 
 /* ADVISORS */
   Name: Mike Heinen
