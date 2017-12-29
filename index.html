@@ -44,10 +44,10 @@ title: Home
         {% if post.image %}
         <a href="{{ post.url }}" class="image"><img src="/images/posts/{{ post.image }}" alt="{{ post.title }}" /></a>
         <div class="inner">
-          <p>{{ post.excerpt }}</p>
+          {{ post.excerpt }}
         </div>
         {% else %}
-        <p>{{ post.excerpt }}</p>
+        {{ post.excerpt }}
         {% endif %}
       </article>
       {% endfor %}
