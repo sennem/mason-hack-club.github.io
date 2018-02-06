@@ -10,7 +10,8 @@ url: "https://masonhackclub.com" # the base hostname & protocol for your site
 twitter: masonhackclub
 github:  mason-hack-club
 email: masonhackclub@gmail.com
-linkedin: "11236662"
+phone: 5134865531
+linkedin: 11236662
 markdown: kramdown
 permalink: /:categories/:title/
 plugins:
