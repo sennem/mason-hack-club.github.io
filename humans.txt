@@ -16,7 +16,7 @@
   Email: 20dalton00 [at] gmail.com
   LinkedIn: dalton-craven
   GitHub: cravend
-  Website: daltoncraven.tech
+  Website: hxxps://daltoncraven.me
   Class of: 2019
 
   Operations Director: Mark Senne
@@ -89,7 +89,7 @@
   Years: 2016-present
 
 /* SITE */
-  Last update: 11/22/2017
+  Last update: 2/6/2018
   Webmaster: Dalton Craven
   Hosted by: GitHub (mason-hack-club/mason-hack-club.github.io)
   Doctype: HTML5
