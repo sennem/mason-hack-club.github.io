@@ -33,6 +33,9 @@ layout: default
           {% if author.linkedin %}
           <li><a href="https://linkedin.com/in/{{ author.linkedin }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
           {% endif %}
+          {% if author.phone %}
+          <li><a href="tel:{{ author.phone }}" class="icon fa-phone"><span class="label">Phone</span></a></li>
+          {% endif %}
         </ul>
       </div>
       </header>
