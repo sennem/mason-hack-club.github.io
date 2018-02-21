@@ -89,7 +89,7 @@
   Years: 2016-present
 
 /* SITE */
-  Last update: 2/6/2018
+  Last update: 2/21/2018
   Webmaster: Dalton Craven
   Hosted by: GitHub (mason-hack-club/mason-hack-club.github.io)
   Doctype: HTML5

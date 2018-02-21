@@ -775,10 +775,17 @@ input[type="button"],
         color: #ffffff !important;
         display: block;
         padding: 0.85em 0;
-        text-decoration: none; }
-        #header > nav ul li a.active {
+        text-decoration: none;
+        transition: .2s all; }
+        #header > nav ul li a:hover {
           background: #fff;
           color: #EF6362 !important; }
+        #header > nav ul li a.active {
+          background: #fff !important;
+          color: #EF6362 !important; }
+          #header > nav ul li a.active:hover {
+            color: #ffffff !important;
+            background-color: #989898 !important; }
         #header > nav ul li a.featured {
           color: #ffffff !important;
           background-color: #989898 !important; }

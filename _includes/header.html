@@ -5,12 +5,9 @@
   </header>
   <nav id="nav">
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/register">Register</a></li>
-      <li><a href="/team">Team</a></li>
-      <li><a href="/blog">Blog</a></li>
-      <li><a href="/news">News</a></li>
-      <li><a href="/resources">Resources</a></li>
+      {% for link in site.data.nav %}
+      <li><a class="{% if link.featured %}featured{% endif %}{% if page.url == link.url %} active{% endif %}" href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
     </ul>
   </nav>
 </section>

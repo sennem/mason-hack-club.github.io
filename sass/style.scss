@@ -985,10 +985,19 @@ $size-header: 23em;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
-
-						&.active {
+						transition: .2s all;
+						&:hover {
 							background: $color-bg;
 							color: $color-header-bg !important;
+						}
+
+						&.active {
+							background: $color-bg !important;
+							color: $color-header-bg !important;
+							&:hover {
+								color: $color-accent-fg-bold !important;
+								background-color: $color-accent2-bg !important;
+							}
 						}
 
 						&.featured {
