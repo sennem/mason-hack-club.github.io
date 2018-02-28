@@ -3,38 +3,38 @@ layout: default
 ---
 
 <!-- One -->
-{% assign author = site.data.authors | where: "display", page.display | first %}
-{% assign posts_author = site.posts | where:"author", author.display %}
+{% assign lead = site.data.team | where: "display", page.display | first %}
+{% assign posts_author = site.posts | where:"author", lead.display %}
 <section id="one" style="overflow: hidden; padding-bottom: 50px;">
   <div class="container">
     <div class="split split-left">
-      <img class="image" style="max-width: 90%;" src="/images/staff/{{ author.display }}.jpg" alt="{{ author.name }}'s image">
+      <img class="image" style="max-width: 90%;" src="/images/staff/{{ lead.display }}.jpg" alt="{{ lead.name }}'s image">
     </div>
       <header class="major">
       <div class="split split-right">
-        <h2>{{ author.name }}</h2>
+        <h2>{{ lead.name }}</h2>
       </div>
       <div class="split right-alt">
-        <h4>{{ author.title }}</h4>
-        <p>{{ author.bio }}</p>
+        <h4>{{ lead.title }}</h4>
+        <p>{{ lead.bio }}</p>
         <ul class="icons">
-          {% if author.email %}
-          <li><a href="mailto:{{ author.email }}" class="icon fa-envelope"><span class="label">Email</span></a></li>
+          {% if lead.email %}
+          <li><a href="mailto:{{ lead.email }}" class="icon fa-envelope"><span class="label">Email</span></a></li>
           {% endif %}
-          {% if author.web %}
-          <li><a href="{{ author.web }}" class="icon fa-link" target="_blank"><span class="label">Website</span></a></li>
+          {% if lead.web %}
+          <li><a href="{{ lead.web }}" class="icon fa-link" target="_blank"><span class="label">Website</span></a></li>
           {% endif %}
-          {% if author.twitter %}
-          <li><a href="https://twitter.com/{{ author.twitter }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+          {% if lead.twitter %}
+          <li><a href="https://twitter.com/{{ lead.twitter }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
           {% endif %}
-          {% if author.github %}
-          <li><a href="https://github.com/{{ author.github }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+          {% if lead.github %}
+          <li><a href="https://github.com/{{ lead.github }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
           {% endif %}
-          {% if author.linkedin %}
-          <li><a href="https://linkedin.com/in/{{ author.linkedin }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+          {% if lead.linkedin %}
+          <li><a href="https://linkedin.com/in/{{ lead.linkedin }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
           {% endif %}
-          {% if author.phone %}
-          <li><a href="tel:{{ author.phone }}" class="icon fa-phone"><span class="label">Phone</span></a></li>
+          {% if lead.phone %}
+          <li><a href="tel:{{ lead.phone }}" class="icon fa-phone"><span class="label">Phone</span></a></li>
           {% endif %}
         </ul>
       </div>
@@ -51,7 +51,7 @@ layout: default
         <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
         <h4 class="post-meta">
           {{ post.date | date: "%b %-d, %Y" }} •
-          <a href="{{ site.url }}/staff/{{ author.display }}">{{ author.name }}</a> •
+          <a href="{{ site.url }}/staff/{{ lead.display }}">{{ lead.name }}</a> •
           <a href="{{ site.url }}/{{ post.categories }}">{{ post.categories }}</a>
         </h4>
       </header>
@@ -82,7 +82,7 @@ layout: default
             <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
             <p class="post-meta">
               {{ post.date | date: "%b %-d, %Y" }} •
-              <a href="{{ site.url }}/staff/{{ author.display }}">{{ author.name }}</a> •
+              <a href="{{ site.url }}/staff/{{ lead.display }}">{{ lead.name }}</a> •
               <a href="{{ site.url }}/{{ post.categories }}">{{ post.categories }}</a>
             </p>
           </header>

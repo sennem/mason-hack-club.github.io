@@ -24,11 +24,6 @@
   LinkedIn: mark-senne-b45807138
   Class of: 2019
 
-  Communications Officer: Avi Parshionikar
-  Email: parshionikara [at] masonohioschools.com
-  GitHub: aviparsh
-  Class of: 2019
-
   Logistics Officer: Will Mechler
   Email: mechlerw [at] masonohioschools.com
   LinkedIn: william-m-aa84bb146
@@ -66,7 +61,6 @@
 
   Activities Director: Avi Parshionikar
   Email: parshionikara [at] masonohioschools.com
-  LinkedIn: scott-shepherd-77140a151
   Class of: 2019
 
   Project Director: Scott Shepherd
@@ -89,7 +83,7 @@
   Years: 2016-present
 
 /* SITE */
-  Last update: 2/21/2018
+  Last update: 2/27/2018
   Webmaster: Dalton Craven
   Hosted by: GitHub (mason-hack-club/mason-hack-club.github.io)
   Doctype: HTML5

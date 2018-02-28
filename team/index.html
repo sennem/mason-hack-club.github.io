@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Staff
+title: Team
 ---
 <section id="one">
   <div class="container">
@@ -13,12 +13,12 @@ title: Staff
 <section id="two">
   <div class="container">
     <div class="staff">
-      {% for author in site.data.authors %}
+      {% for lead in site.data.team %}
       <div class="authors">
-        <a class="image" href="{{ site.baseurl }}{{ author.display }}">
-          <img src="/images/staff/{{ author.display }}.jpg" alt="{{ author.name }}'s image">
-          <h3>{{ author.name }}</h3>
-          <p>{{ author.title }}</p>
+        <a class="image" href="{{ site.baseurl }}{{ lead.display }}">
+          <img src="/images/staff/{{ lead.display }}.jpg" alt="{{ lead.name }}'s image">
+          <h3>{{ lead.name }}</h3>
+          <p>{{ lead.title }}</p>
         </a>
       </div>
       {% endfor %}
