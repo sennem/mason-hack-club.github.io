@@ -28,6 +28,15 @@ a {
   a:hover {
     border-bottom-color: transparent;
     color: #EF6362 !important; }
+  a h3 {
+      -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+      -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+      -o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+      -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+      transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out; }
+  a:hover h3 {
+    border-bottom-color: transparent;
+    color: #EF6362 !important; }
 
 strong, b {
   color: #777;

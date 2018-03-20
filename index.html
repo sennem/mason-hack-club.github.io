@@ -33,12 +33,16 @@ title: Home
     <p>For a full list of posts, check out our <a href="{{ site.baseurl }}/blog">blog</a> or <a href="{{ site.baseurl }}/news">news</a> sections.</p>
     <div class="features">
       {% for post in site.posts offset: 0 limit: 3 %}
-      {% assign author = site.data.authors | where: "display", post.author | first %}
+      {% assign author = site.data.team | where: "display", post.author | first %}
       <article>
-        <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
         <p class="post-meta">
           {{ post.date | date: "%B %-d, %Y" }} •
+          {% if author.name %}
           <a href="{{ site.url }}/team/{{ author.display }}">{{ author.name }}</a> •
+          {% else %}
+          {{ post.author | capitalize }} •
+          {% endif %}
           <a href="{{ site.url }}/{{ post.categories }}">{{ post.categories }}</a>
         </p>
         {% if post.image %}
