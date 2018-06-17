@@ -8,3 +8,7 @@
   url: "/blog/"
 - title: "News"
   url: "/news/"
+- title: "Hack Camp 2018"
+  url: "https://camp.masonhackclub.com/"
+  featured: true
+  external: true

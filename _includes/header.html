@@ -6,7 +6,7 @@
   <nav id="nav">
     <ul>
       {% for link in site.data.nav %}
-      <li><a class="{% if link.featured %}featured{% endif %}{% if page.url == link.url %} active{% endif %}" href="{{ link.url }}">{{ link.title }}</a></li>
+      <li><a class="{% if link.featured %}featured{% endif %}{% if page.url == link.url %} active{% endif %}" href="{{ link.url }}"{% if link.external %} target="_blank" rel="noopener"{% endif %}>{{ link.title }}</a></li>
       {% endfor %}
     </ul>
   </nav>

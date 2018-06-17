@@ -28,15 +28,6 @@ a {
   a:hover {
     border-bottom-color: transparent;
     color: #EF6362 !important; }
-  a h3 {
-      -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-      -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-      -o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-      -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-      transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out; }
-  a:hover h3 {
-    border-bottom-color: transparent;
-    color: #EF6362 !important; }
 
 strong, b {
   color: #777;
@@ -798,6 +789,9 @@ input[type="button"],
         #header > nav ul li a.featured {
           color: #ffffff !important;
           background-color: #989898 !important; }
+          #header > nav ul li a.featured:hover {
+            background: #fff !important;
+            color: #EF6362 !important; }
       #header > nav ul li:first-child {
         border-top: 0; }
 

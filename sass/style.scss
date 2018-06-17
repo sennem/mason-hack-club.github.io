@@ -1003,6 +1003,10 @@ $size-header: 23em;
 						&.featured {
 							color: $color-accent-fg-bold !important;
 							background-color: $color-accent2-bg !important;
+							&:hover {
+								background: $color-bg !important;
+								color: $color-header-bg !important;
+							}
 						}
 					}
 
